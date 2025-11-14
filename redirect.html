@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="refresh" content="0; url=com.example.swiftycompanion://callback">
+<title>Redirecting...</title>
+</head>
+<body>
+Redirecting...
+<script>
+  // Pass the query parameters back to the app
+  const query = window.location.search;
+  window.location = "com.example.swiftycompanion://callback" + query;
+</script>
+</body>
+</html>
